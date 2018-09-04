@@ -17,6 +17,8 @@ public class duplicateNumber {
 		abc.add(79);
 		abc.add(67);
 		
+		System.out.println();
+		
 		System.out.println("The numbers are : "+abc);
 		Collections.sort(abc,Collections.reverseOrder());
 		System.out.println("The numbers after sorting are : "+abc);
