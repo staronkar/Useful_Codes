@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57487" started-at="2018-09-30T17:31:51Z" finished-at="2018-09-30T17:32:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57487" started-at="2018-09-30T17:31:51Z" finished-at="2018-09-30T17:32:49Z">
+      <class name="Sept_18.dataProviderTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:Sept_18.dataProviderTest@be2bc2]" name="beforeTestMethod" is-config="true" duration-ms="5652" started-at="2018-09-30T23:01:51Z" finished-at="2018-09-30T23:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:Sept_18.dataProviderTest@be2bc2]" name="testMethod" duration-ms="26921" started-at="2018-09-30T23:01:57Z" data-provider="TestData" finished-at="2018-09-30T23:02:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://softwaretestingmaterial.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:Sept_18.dataProviderTest@be2bc2]" name="testMethod" duration-ms="22760" started-at="2018-09-30T23:02:24Z" data-provider="TestData" finished-at="2018-09-30T23:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.restapitutorial.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:Sept_18.dataProviderTest@be2bc2]" name="afterTestMethod" is-config="true" duration-ms="2109" started-at="2018-09-30T23:02:47Z" finished-at="2018-09-30T23:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- Sept_18.dataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
